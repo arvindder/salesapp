@@ -15,7 +15,7 @@ import * as io from 'socket.io-client';
 @Injectable()
 export class SocketService {
 
-	private BASE_URL = 'http://35.240.182.194:8000/dev.tektician.com:32006';
+	private BASE_URL = 'http://192.168.10.106:7000/dev.tektician.com:32006';
 	public socket;
 
 	constructor() { }
